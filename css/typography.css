@@ -1,0 +1,94 @@
+/* Work Sans, Regular */
+@font-face {
+   src: url("../resources/fonts/ws-r.woff2") format("woff2"),
+        url("../resources/fonts/ws-r.woff") format("woff"),
+        url("../resources/fonts/ws-r.otf") format("otf");
+   font-family: "WorkSans";
+   font-weight: normal;
+   font-style: normal;
+
+   font-display: block;
+}
+
+/* Work Sans, Regular Italic */
+@font-face {
+   src: url("../resources/fonts/ws-ri.woff2") format("woff2"),
+        url("../resources/fonts/ws-ri.woff") format("woff"),
+        url("../resources/fonts/ws-ri.otf") format("otf");
+   font-family: "WorkSans";
+   font-weight: normal;
+   font-style: italic;
+
+   font-display: block;
+}
+
+/* Libre Baskerville, Regular */
+@font-face {
+   src: url("../resources/fonts/lb-r.ttf") format("truetype");
+   font-family: "LibreBaskerville";
+   font-weight: normal;
+   font-style: normal;
+
+   font-display: block;
+}
+
+
+
+.typo-logotype { /* <h3> */
+   font-family: "WorkSans";
+   font-style: italic;
+   font-weight: normal;
+   letter-spacing: 0.20422em;
+   font-size: 1.20016rem;
+   line-height: 1.08917;
+   font-variant-ligatures: no-common-ligatures; /* Disables the unecessary joining of the 'f' and 'l' */
+   opacity: 0.75;
+}
+
+.typo-large-heading { /* <h1> */
+   font-family: "LibreBaskerville";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 2.48856rem;
+   line-height: 1.18188;
+
+   opacity: 0.8;
+   text-shadow: 0 1px 3px rgba(0,0,0,0.10),
+                0 2px 1px rgba(0,0,0,0.06),
+                0 1px 1px rgba(0,0,0,0.07);
+}
+
+.typo-small-heading { /* <h2> */
+   font-family: "LibreBaskerville";
+   font-style: normal;
+   font-weight: normal;
+
+   font-size: 1.72794rem;
+   line-height: 1.32388;
+   opacity: 0.8;
+
+   text-shadow: 0 1px 3px rgba(0,0,0,0.05),
+                0 2px 1px rgba(0,0,0,0.03),
+                0 1px 1px rgba(0,0,0,0.035);
+}
+
+.typo-attribution { /* <p> */
+   font-family: "WorkSans";
+   font-style: italic;
+   font-weight: normal;
+
+   font-size: 0.95833rem;
+   line-height: 1.02302;
+   opacity: 0.55;
+}
+
+
+
+/* Currently not in use. Present for typographic reference and future need. */
+.typo-body { /* <p> */
+   /* TODO [Non-critical] Body text typographic styles */
+}
+
+.typo-large-body { /* <p> */
+   /* TODO [Non-critical] Large body text typographic styles */
+}

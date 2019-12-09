@@ -1,0 +1,114 @@
+.logotype {}
+
+
+
+.track-name-heading {
+   margin-top: 135px;
+   margin-bottom: 13px;
+}
+
+
+
+.social-icons-list {
+   margin-bottom: 137px;
+}
+
+
+
+.wrapper-track-artwork {}
+.track-artwork-link {}
+.track-artwork {
+   border-radius: 4px;
+}
+
+
+
+.track-artwork-attribution {
+   margin-top: 30px;
+   margin-bottom: -2px;
+}
+.kyuuto-link {}
+
+
+
+
+
+@media (min-width: 768px) {
+   .track-name-heading {
+      margin-top: 220px;
+      margin-bottom: 21px;
+   }
+
+   .social-icons-list {
+      margin-bottom: 220px;
+   }
+   .wrapper-social-icon:not(:last-of-type) {
+      margin-right: 32px;
+   }
+   .social-icon {
+      width: 24px;
+      height: 24px;
+   }
+   .spotify-icon {
+      width: 22.5px;
+      height: 22.5px;
+      top: 2px;
+   }
+   .apple-music-icon {
+      bottom: 1px;
+   }
+   .soundcloud-icon {
+      width: 27px;
+      height: 27px;
+      bottom: 1px;
+   }
+
+   .track-artwork {
+      border-radius: 6px;
+   }
+
+   .track-artwork-attribution {
+      margin-bottom: -2px;
+      margin-top: 50px;
+   }
+}
+
+@media (min-width: 1280px) {
+   .bandcamp-icon {
+      /* 1.0625 */
+      width: 21.25px;
+      height: 21.25px;
+   }
+
+   .spotify-icon {
+      /* 0.9375 */
+      width: 18.75px;
+      height: 18.75px;
+      top: 1px;
+   }
+
+   .apple-music-icon {
+      width: 20px;
+      height: 20px;
+      bottom: 1px;
+   }
+
+   .soundcloud-icon {
+      /* 1.25 */
+      width: 25px;
+      height: 25px;
+      bottom: 2px;
+   }
+   .twitter-icon {
+      width: 20px;
+      height: 20px;
+   }
+
+   .track-artwork {
+      border-radius: 8px;
+   }
+}
+
+@media (min-width: 1920px) {
+
+}

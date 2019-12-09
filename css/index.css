@@ -1,0 +1,143 @@
+.logotype {}
+
+
+
+.featured-work-heading { /* <h1> */
+   margin-top: 135px;
+   margin-bottom: 137px;
+}
+
+
+
+.wrapper-featured-work-cover-image { /* <div> */
+   margin-bottom: 51px;
+}
+.featured-work-cover-image { /* <img> */
+   border-radius: 4px;
+}
+
+
+
+.featured-work-tracklist { /* <ol> */
+   list-style: none;
+   margin-bottom: 53px;
+}
+
+.featured-work-track:hover,
+.featured-work-track:active {
+   opacity: 0.7;
+}
+
+.featured-work-track:not(:last-of-type) { /* <li> */
+   margin-bottom: 20px;
+}
+
+.featured-work-track-link { /* <a> */ }
+
+.featured-work-track-name { /* <h2> */ }
+
+
+
+
+
+@media (min-width: 768px) {
+   .featured-work-heading {
+      margin-top: 220px;
+      margin-bottom: 220px;
+   }
+
+   .wrapper-social-icon:not(:last-of-type) {
+      margin-right: 32px;
+   }
+   .bandcamp-icon {
+      width: 25.5px;
+      height: 25.5px;
+   }
+   .social-icon {
+      width: 24px;
+      height: 24px;
+   }
+   .spotify-icon {
+      width: 22.5px;
+      height: 22.5px;
+      top: 2px;
+   }
+   .apple-music-icon {
+      bottom: 1px;
+   }
+   .soundcloud-icon {
+      width: 27px;
+      height: 27px;
+      bottom: 1px;
+   }
+
+   .wrapper-featured-work-cover-image { /* <div> */
+      margin-bottom: 83px;
+   }
+   .featured-work-cover-image { /* <img> */
+      border-radius: 6px;
+   }
+
+   .featured-work-tracklist { /* <ol> */
+      margin-bottom: 85px;
+   }
+   .featured-work-track:not(:last-of-type) { /* <li> */
+      margin-bottom: 32px;
+   }
+
+   .track-artwork-attribution {
+      margin-bottom: -2px;
+      margin-top: 50px;
+   }
+}
+
+@media (min-width: 1280px) {
+   .wrapper-featured-work-cover-image {
+      max-height: 80vh;
+      width: auto;
+   }
+   .featured-work-cover-image {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+      border-radius: 8px;
+   }
+
+   .bandcamp-icon {
+      /* 1.0625 */
+      width: 21.25px;
+      height: 21.25px;
+   }
+
+   .spotify-icon {
+      /* 0.9375 */
+      width: 18.75px;
+      height: 18.75px;
+      top: 1px;
+   }
+
+   .apple-music-icon {
+      width: 20px;
+      height: 20px;
+      bottom: 1px;
+   }
+
+   .soundcloud-icon {
+      /* 1.25 */
+      width: 25px;
+      height: 25px;
+      bottom: 2px;
+   }
+   .twitter-icon {
+      width: 20px;
+      height: 20px;
+   }
+
+   a {
+      text-decoration: none;
+   }
+}
+
+@media (min-width: 1920px) {
+
+}

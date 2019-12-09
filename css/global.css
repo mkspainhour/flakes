@@ -1,0 +1,160 @@
+:root {
+   font-size: 12.24px; /* Calculated mobile base value */
+}
+
+body {
+   display: flex;
+   flex-flow: column nowrap;
+
+   background-color: #FAFAFA;
+   padding: 32px;
+}
+
+main {
+   display: inherit;
+   flex-flow: inherit;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+}
+
+
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+   color: unset;
+}
+
+
+
+.wrapper-image { /* <div> */
+}
+
+img {
+   display: block;
+   width: 100%;
+   height: auto;
+   box-shadow: 0 11px 15px -7px rgba(0,0,0,0.10),
+               0 9px 46px 8px rgba(0,0,0,0.06),
+               0 24px 38px 3px rgba(0,0,0,0.07);
+}
+
+
+
+.social-icons-list { /* <ul> */
+   list-style: none;
+   display: flex;
+   flex-flow: row nowrap;
+}
+
+.wrapper-social-icon { /* <li> */
+
+}
+.wrapper-social-icon:not(:last-of-type) {
+   margin-right: 20px;
+}
+
+.social-icon-link { /* <a> */
+   display: block;
+}
+
+.social-icon { /* <img> */
+   position: relative;
+   width: 16px;
+   height: 16px;
+   max-width: 32px;
+   max-height: 32px;
+   opacity: 0.25;
+}
+.social-icon:hover {
+   opacity: 1;
+}
+
+.bandcamp-icon {
+   /* 1.0625 */
+   width: 17px;
+   height: 17px;
+}
+
+.spotify-icon {
+   /* 0.9375 */
+   width: 15px;
+   height: 15px;
+   top: 1px;
+}
+
+.apple-music-icon {
+   bottom: 1px;
+}
+
+.soundcloud-icon {
+   /* 1.25 */
+   width: 20px;
+   height: 20px;
+   bottom: 2px;
+}
+.twitter-icon {}
+
+
+
+
+
+@media (min-width: 768px) {
+   :root {
+      font-size: 12.38px;
+   }
+   body {
+      padding: 52px;
+   }
+
+   .typo-logotype {
+      font-size: 1.25rem;
+   }
+   .typo-large-heading {
+      font-size: 3.0518rem;
+   }
+   .typo-small-heading {
+      font-size: 1.9531rem;
+   }
+}
+
+@media (min-width: 1024px) {
+   :root {
+      font-size: 12.48px;
+   }
+
+   .typo-logotype {
+      font-size: 1.3rem;
+   }
+   .typo-large-heading {
+      font-size: 3.7129rem;
+   }
+   .typo-small-heading {
+      font-size: 2.197rem;
+   }
+   .typo-attribution {
+      font-size: 1.3rem;
+   }
+}
+
+@media (min-width: 1920px) {
+   :root {
+      font-size: 12.96px;
+   }
+
+   .typo-logotype {
+      font-size: 1.35rem;
+   }
+   .typo-large-heading {
+      font-size: 4.484rem;
+   }
+   .typo-small-heading {
+      font-size: 2.4604rem;
+   }
+   .typo-attribution {
+      font-size: 1.35rem;
+   }
+}
