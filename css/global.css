@@ -112,13 +112,13 @@ img {
    }
 
    .typo-logotype {
-      font-size: 1.25rem;
+      font-size: 1.5625rem;
    }
    .typo-large-heading {
-      font-size: 3.0518rem;
+      font-size: 3.8147rem;
    }
    .typo-small-heading {
-      font-size: 1.9531rem;
+      font-size: 2.4414rem;
    }
 }
 
@@ -131,13 +131,19 @@ img {
       font-size: 1.3rem;
    }
    .typo-large-heading {
-      font-size: 3.7129rem;
+      font-size: 4.8268rem;
    }
    .typo-small-heading {
-      font-size: 2.197rem;
+      font-size: 2.8561rem;
    }
    .typo-attribution {
       font-size: 1.3rem;
+   }
+}
+
+@media (min-width: 1280px) {
+   .typo-logotype {
+      font-size: 1.69rem;
    }
 }
 
@@ -147,13 +153,13 @@ img {
    }
 
    .typo-logotype {
-      font-size: 1.35rem;
+      font-size: 1.8225rem;
    }
    .typo-large-heading {
-      font-size: 4.484rem;
+      font-size: 6.0534rem;
    }
    .typo-small-heading {
-      font-size: 2.4604rem;
+      font-size: 3.3215rem;
    }
    .typo-attribution {
       font-size: 1.35rem;
