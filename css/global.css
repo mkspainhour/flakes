@@ -68,6 +68,7 @@ img {
    max-width: 32px;
    max-height: 32px;
    opacity: 0.25;
+   box-shadow: none;
 }
 .social-icon:hover {
    opacity: 1;
